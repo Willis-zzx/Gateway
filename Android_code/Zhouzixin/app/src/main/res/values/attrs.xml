@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="TickerView">
+        <attr name="ticker_animationDuration" format="reference|integer" />
+        <attr name="ticker_animateMeasurementChange" format="reference|boolean" />
+        <attr name="ticker_defaultCharacterList" format="enum">
+            <enum name="number" value="1" />
+            <enum name="alphabet" value="2" />
+        </attr>
+        <attr name="ticker_defaultPreferredScrollingDirection" format="enum">
+            <enum name="any" value="0" />
+            <enum name="up" value="1" />
+            <enum name="down" value="2" />
+        </attr>
+
+        <!-- Custom implementations of common android text attributes -->
+        <attr name="android:gravity" tools:ignore="ResourceName" />
+        <attr name="android:shadowColor" tools:ignore="ResourceName" />
+        <attr name="android:shadowDx" tools:ignore="ResourceName" />
+        <attr name="android:shadowDy" tools:ignore="ResourceName" />
+        <attr name="android:shadowRadius" tools:ignore="ResourceName" />
+        <attr name="android:text" tools:ignore="ResourceName" />
+        <attr name="android:textAppearance" tools:ignore="ResourceName" />
+        <attr name="android:textColor" tools:ignore="ResourceName" />
+        <attr name="android:textSize" tools:ignore="ResourceName" />
+        <attr name="android:textStyle" tools:ignore="ResourceName" />
+    </declare-styleable>
+</resources>

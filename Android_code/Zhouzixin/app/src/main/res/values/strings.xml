@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Zhouzixin</string>
+    <string name="Upload">连接</string>
+    <string name="title_1">温度</string>
+    <string name="title_2">湿度</string>
+    <string name="title_3">Bad card</string>
+    <string name="title_4">Ugly card</string>
+    <string name="button1">温度曲线</string>
+    <string name="button2">湿度曲线</string>
+    <string name="button3">温湿度曲线</string>
+    <string name="text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Etiam eget ligula eu lectus lobortis condimentum.</string>
+</resources>
